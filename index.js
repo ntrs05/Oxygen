@@ -303,7 +303,17 @@ client.on(Events.MessageCreate, async message => {
 
         } catch (error) {
             console.error("Puter AI error:", error);
-            await message.reply("The Puter AI system is currently overloaded or experiencing an error. Please try again later    😵‍💫");
+            if (error?.error?.message === 'moderation_failed' || error?.message.includes('moderation')) {
+                const sassyResponses = [
+                    "AYO CHILL!!! Let's keep it friendly! No need for that kind of language.😭",
+                    "What the heck is wrong with you, mate? Can't you just be nice for once?😤",
+                    "Got no life? Hiding behind a screen to throw insults? Pathetic.😒",
+                    "Wow, I didn't know keyboard warriors were still a thing. Do you even have friends?😏",
+                    "Can't believe you just like a loser. Do you even know how to have fun? Or are you just here to spread negativity?😔",
+                ];
+                const randomResponse = sassyResponses[Math.floor(Math.random() * sassyResponses.length)];
+                message.reply(randomResponse);
+            }
         }
     }
 });
