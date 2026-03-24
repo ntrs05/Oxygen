@@ -21,7 +21,7 @@ const client = new Client({
 
 const systemPrompt = require('./prompt');
 
-// Bộ nhớ lưu lịch sử chat của từng người
+// Save chat history for each user
 const chatSessions = new Map();
 
 const perPage = 5;
@@ -71,17 +71,17 @@ client.once(Events.ClientReady, async () => {
     console.log(`${client.user.tag} is ready!`);
 
     try {
-        console.log("Đang kết nối hệ thống AI của Puter...");
+        console.log("Connecting to Puter AI...");
         
-        // Nếu đã lưu Token trong file .env thì lấy ra xài luôn
+        // If already have a token, use it. Otherwise, get a new one
         if (process.env.PUTER_TOKEN) {
             puter = init(process.env.PUTER_TOKEN);
         } else {
-            // Nếu chưa có, Puter sẽ tự động bật 1 tab Chrome lên để bạn bấm nút Cấp quyền
+            // If no token available, Puter will automatically open a browser tab to grand access
             const token = await getAuthToken(); 
             puter = init(token);
         }
-        console.log("Puter AI đã kết nối thành công!");
+        console.log("Success!");
     } catch (err) {
         console.error("Lỗi kết nối Puter:", err);
     }
@@ -176,7 +176,7 @@ client.on(Events.InteractionCreate, async interaction => {
 client.on(Events.MessageCreate, async message => {
     if (message.author.bot) return;
 
-    // Khi có người tag bot
+    // When the bot is mentioned
     if (message.mentions.has(client.user.id)) {
         const userInput = message.content.replace(`<@${client.user.id}>`, '').trim();
 
@@ -206,7 +206,7 @@ client.on(Events.MessageCreate, async message => {
 
             const searchMatch = replyText.match(/\[SEARCH:(.*?)\]/);
 
-            // Các biến dùng để chứa Giao diện nút bấm nếu có tìm kiếm
+            // Values for search parameters
             let searchEmbeds = [];
             let searchComponents = [];
             let searchResults = []; 
@@ -221,19 +221,19 @@ client.on(Events.MessageCreate, async message => {
                     difficulty: params[3] || null
                 };
 
-                // Lấy TOÀN BỘ kết quả từ API
+                // Get ALL result from TUF API based on the search parameters
                 searchResults = await level_search(searchParams);
 
                 let systemFeedback = "";
                 if (searchResults && searchResults.length > 0) {
-                    // Vẫn chỉ mớm 3 map đầu cho AI đọc để nó biết sơ sơ
+                    // On;ly show the top 3 results in the initial reply, the rest will be in the paginated embed
                     const topResults = searchResults.slice(0, 3).map((r, idx) => 
                         `#${idx + 1}. Song: ${r.song} (ID: ${r.id}), Difficulty: ${r.difficulty}`
                     ).join('\n');
                     
                     systemFeedback = `The system found ${searchResults.length} matching levels. Here are the first 3:\n${topResults}\n\nPlease use the buttons below to view the full list.`;
 
-                    // --- CHUẨN BỊ GIAO DIỆN PHÂN TRANG Y HỆT SLASH COMMAND ---
+                    // Pgae display query based on the search parameters
                     let queryParts = [];
                     if (searchParams.level_id) queryParts.push(`ID: ${searchParams.level_id}`);
                     if (searchParams.level_name) queryParts.push(`Name: ${searchParams.level_name}`);
@@ -267,21 +267,21 @@ client.on(Events.MessageCreate, async message => {
             history.push({ role: 'assistant', content: replyText });
             if (history.length > 15) history.splice(1, 2);
 
-            // --- GỬI TIN NHẮN KÈM THEO BẢNG DANH SÁCH & NÚT BẤM ---
+            // Send the reply with embeds and components if there are search results, otherwise just send the text
             const sentMessage = await message.reply({
                 content: replyText,
                 embeds: searchEmbeds.length > 0 ? searchEmbeds : undefined,
                 components: searchComponents.length > 0 ? searchComponents : undefined
             });
 
-            // --- KÍCH HOẠT TÍNH NĂNG CHUYỂN TRANG NẾU CÓ DỮ LIỆU ---
+            // Activate pagination if there are search results
             if (searchResults.length > 0) {
                 let currentPage = 1;
                 const totalPages = Math.ceil(searchResults.length / perPage);
                 const collector = sentMessage.createMessageComponentCollector({ time: 120000 });
 
                 collector.on('collect', async i => {
-                    // Chặn người ngoài bấm nút của người đang chat
+                    // Block users other than the original message author from using the buttons
                     if (i.user.id !== message.author.id) {
                         return i.reply({ content: "Hey! That's not for you.", ephemeral: true });
                     }
@@ -295,7 +295,7 @@ client.on(Events.MessageCreate, async message => {
                     });
                 });
 
-                // Tự động xóa nút bấm sau 2 phút để đỡ rác kênh chat
+                // Disable buttons after timeout
                 collector.on('end', () => {
                     sentMessage.edit({ components: [] }).catch(() => {});
                 });
