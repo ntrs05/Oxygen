@@ -1,0 +1,5015 @@
+{
+    "results": [
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "RLB404_LAU",
+            "charters": [
+                "RLB404_LAU"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12946,
+            "song": "Awareness",
+            "artist": "Halv",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1T7QQBWEi4",
+            "dlLink": "https://api.tuforums.com/cdn/34914c9b-9461-4920-be6f-d7b184ce7fb8",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-23T03:09:29.000Z",
+            "updatedAt": "2026-03-23T03:09:29.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 1054,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30941,
+                    "levelId": 12946,
+                    "isOwner": false,
+                    "creatorId": 2725,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2725,
+                        "name": "RLB404_LAU",
+                        "createdAt": "2025-11-17T19:30:28.000Z",
+                        "updatedAt": "2025-11-17T19:30:28.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 15,
+                    "name": "Decorations",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4cdee022-a4ce-4fcc-b0be-f033a973e03e/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 1054,
+                "name": "Awareness",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 833,
+                            "name": "Halv",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_declined",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 833,
+                    "name": "Halv",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_declined",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "RLB404_LAU",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Hazrd",
+            "charters": [
+                "Hazrd"
+            ],
+            "vfxer": "Hazrd",
+            "vfxers": [
+                "Hazrd"
+            ],
+            "team": "",
+            "id": 12945,
+            "song": "KATAMARI",
+            "artist": "Femtanyl",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=5gKMQcH2GgA",
+            "dlLink": "https://api.tuforums.com/cdn/afd1f810-c48e-4e31-9843-f40c4868cdaf",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3539115002",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-23T03:09:25.000Z",
+            "updatedAt": "2026-03-23T03:09:25.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 933,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30939,
+                    "levelId": 12945,
+                    "isOwner": false,
+                    "creatorId": 2969,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2969,
+                        "name": "Hazrd",
+                        "createdAt": "2026-03-20T11:02:49.000Z",
+                        "updatedAt": "2026-03-20T11:02:49.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30940,
+                    "levelId": 12945,
+                    "isOwner": false,
+                    "creatorId": 2969,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2969,
+                        "name": "Hazrd",
+                        "createdAt": "2026-03-20T11:02:49.000Z",
+                        "updatedAt": "2026-03-20T11:02:49.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Full VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                }
+            ],
+            "songObject": {
+                "id": 933,
+                "name": "KATAMARI",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 695,
+                            "name": "Femtanyl",
+                            "avatarUrl": null,
+                            "verificationState": "allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 695,
+                    "name": "Femtanyl",
+                    "avatarUrl": null,
+                    "verificationState": "allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "HazrdHazrd",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Ruze, 冰神",
+            "charters": [
+                "Ruze",
+                "冰神"
+            ],
+            "vfxer": "Ruze, 优云n",
+            "vfxers": [
+                "Ruze",
+                "优云n"
+            ],
+            "team": "",
+            "id": 12944,
+            "song": "The Lost Aria Remake",
+            "artist": "Plum",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1jR6yBREUM",
+            "dlLink": "https://api.tuforums.com/cdn/958b7f35-6947-4b64-ac1e-0bbb2d9cc1ec",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3657260586",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:42:29.000Z",
+            "updatedAt": "2026-03-22T14:42:29.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 3070,
+            "suffix": "Remake",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30935,
+                    "levelId": 12944,
+                    "isOwner": false,
+                    "creatorId": 2455,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2455,
+                        "name": "Ruze",
+                        "createdAt": "2025-08-04T04:05:54.000Z",
+                        "updatedAt": "2025-08-04T04:05:54.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30938,
+                    "levelId": 12944,
+                    "isOwner": false,
+                    "creatorId": 2455,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2455,
+                        "name": "Ruze",
+                        "createdAt": "2025-08-04T04:05:54.000Z",
+                        "updatedAt": "2025-08-04T04:05:54.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30936,
+                    "levelId": 12944,
+                    "isOwner": false,
+                    "creatorId": 2767,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2767,
+                        "name": "冰神",
+                        "createdAt": "2025-12-19T15:37:19.000Z",
+                        "updatedAt": "2025-12-19T15:37:19.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30937,
+                    "levelId": 12944,
+                    "isOwner": false,
+                    "creatorId": 2821,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2821,
+                        "name": "优云n",
+                        "createdAt": "2026-01-08T15:14:00.000Z",
+                        "updatedAt": "2026-01-08T15:14:00.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 3,
+                    "name": "Full VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 3070,
+                "name": "The Lost Aria",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1736,
+                            "name": "Plum",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Plum - Melodic Artist"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1736,
+                    "name": "Plum",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Plum - Melodic Artist"
+                        }
+                    ]
+                }
+            ],
+            "creator": "Ruze1moreRuze1more",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "3.14",
+            "charters": [
+                "3.14"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12943,
+            "song": "∀ [NORMAL]",
+            "artist": "ああああ",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=xcwyYCdTK-s",
+            "dlLink": "https://api.tuforums.com/cdn/0fd9178a-488e-4314-8e42-34fac5c0f532",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3688901184",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:42:24.000Z",
+            "updatedAt": "2026-03-22T14:42:24.000Z",
+            "isHidden": false,
+            "isVerified": true,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 336,
+            "suffix": "[NORMAL]",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30934,
+                    "levelId": 12943,
+                    "isOwner": false,
+                    "creatorId": 999,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 999,
+                        "name": "3.14",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2025-02-03T16:26:03.000Z",
+                        "isVerified": true,
+                        "userId": null,
+                        "creatorAliases": [
+                            {
+                                "name": "円周率のゲーム部屋"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 1,
+                    "name": "Filters",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/1c24e3b4-b88f-4d2c-9bc0-ff6d13612c0d/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 5,
+                    "name": "1+ Minute",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/57cc419e-23b1-49da-a172-41073179ff51/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                }
+            ],
+            "songObject": {
+                "id": 336,
+                "name": "∀",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "倒A"
+                    },
+                    {
+                        "alias": "universal quantification"
+                    },
+                    {
+                        "alias": "upside down a"
+                    },
+                    {
+                        "alias": "given any"
+                    },
+                    {
+                        "alias": "for every"
+                    },
+                    {
+                        "alias": "for all"
+                    },
+                    {
+                        "alias": "turn a"
+                    },
+                    {
+                        "alias": "역에이"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2594,
+                            "name": "ああああ",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "AAAA"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 2594,
+                    "name": "ああああ",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "AAAA"
+                        }
+                    ]
+                }
+            ],
+            "creator": "3.14",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "3.14",
+            "charters": [
+                "3.14"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12942,
+            "song": "∀ [EASY]",
+            "artist": "ああああ",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=1EzmfDRS3xI",
+            "dlLink": "https://api.tuforums.com/cdn/350b6fbd-c11b-4314-9880-8448e08d818e",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3688900889",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:42:18.000Z",
+            "updatedAt": "2026-03-22T14:42:18.000Z",
+            "isHidden": false,
+            "isVerified": true,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 336,
+            "suffix": "[EASY]",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30933,
+                    "levelId": 12942,
+                    "isOwner": false,
+                    "creatorId": 999,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 999,
+                        "name": "3.14",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2025-02-03T16:26:03.000Z",
+                        "isVerified": true,
+                        "userId": null,
+                        "creatorAliases": [
+                            {
+                                "name": "円周率のゲーム部屋"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 1,
+                    "name": "Filters",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/1c24e3b4-b88f-4d2c-9bc0-ff6d13612c0d/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 5,
+                    "name": "1+ Minute",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/57cc419e-23b1-49da-a172-41073179ff51/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                }
+            ],
+            "songObject": {
+                "id": 336,
+                "name": "∀",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "倒A"
+                    },
+                    {
+                        "alias": "universal quantification"
+                    },
+                    {
+                        "alias": "upside down a"
+                    },
+                    {
+                        "alias": "given any"
+                    },
+                    {
+                        "alias": "for every"
+                    },
+                    {
+                        "alias": "for all"
+                    },
+                    {
+                        "alias": "turn a"
+                    },
+                    {
+                        "alias": "역에이"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2594,
+                            "name": "ああああ",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "AAAA"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 2594,
+                    "name": "ああああ",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "AAAA"
+                        }
+                    ]
+                }
+            ],
+            "creator": "3.14",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Korzy",
+            "charters": [
+                "Korzy"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12941,
+            "song": "Hello (BPM) 2026",
+            "artist": "Camellia (かめりあ)",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=s7rtzEDSA0I",
+            "dlLink": "https://api.tuforums.com/cdn/481fb4fc-03c6-4022-990f-0651fb795ee4",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:42:17.000Z",
+            "updatedAt": "2026-03-22T14:42:17.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 6354,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30932,
+                    "levelId": 12941,
+                    "isOwner": false,
+                    "creatorId": 2677,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2677,
+                        "name": "Korzy",
+                        "createdAt": "2025-10-21T15:40:32.000Z",
+                        "updatedAt": "2025-10-21T15:40:32.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 6354,
+                "name": "Hello (BPM) 2026",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "hello bpm 2026"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3027,
+                            "name": "Camellia (かめりあ)",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Camellia"
+                                },
+                                {
+                                    "alias": "かめりあ (Camellia)"
+                                },
+                                {
+                                    "alias": "Camellia (かめりあ)"
+                                },
+                                {
+                                    "alias": "かねりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "かめりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "Cameilla"
+                                },
+                                {
+                                    "alias": "かめりあ(Camelia)"
+                                },
+                                {
+                                    "alias": "かめりあ"
+                                },
+                                {
+                                    "alias": "Camelia"
+                                },
+                                {
+                                    "alias": "Camellia (Cametek)"
+                                },
+                                {
+                                    "alias": "Camellia Remix"
+                                },
+                                {
+                                    "alias": "かめりあ (Cameliia)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 3027,
+                    "name": "Camellia (かめりあ)",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Camellia"
+                        },
+                        {
+                            "alias": "かめりあ (Camellia)"
+                        },
+                        {
+                            "alias": "Camellia (かめりあ)"
+                        },
+                        {
+                            "alias": "かねりあ(Camellia)"
+                        },
+                        {
+                            "alias": "かめりあ(Camellia)"
+                        },
+                        {
+                            "alias": "Cameilla"
+                        },
+                        {
+                            "alias": "かめりあ(Camelia)"
+                        },
+                        {
+                            "alias": "かめりあ"
+                        },
+                        {
+                            "alias": "Camelia"
+                        },
+                        {
+                            "alias": "Camellia (Cametek)"
+                        },
+                        {
+                            "alias": "Camellia Remix"
+                        },
+                        {
+                            "alias": "かめりあ (Cameliia)"
+                        }
+                    ]
+                }
+            ],
+            "creator": "Korzy",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "seia_chann",
+            "charters": [
+                "seia_chann"
+            ],
+            "vfxer": "나는-_-다, jammini-ee",
+            "vfxers": [
+                "나는-_-다",
+                "jammini-ee"
+            ],
+            "team": "UnnameD",
+            "id": 12940,
+            "song": "Twinkle*Winter",
+            "artist": "brz1128",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "none",
+            "dlLink": "https://api.tuforums.com/cdn/063cd912-097d-41d3-ba9f-42b5d1a6ee2a",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:41:49.000Z",
+            "updatedAt": "2026-03-22T14:41:49.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": 428,
+            "songId": 2911,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30929,
+                    "levelId": 12940,
+                    "isOwner": false,
+                    "creatorId": 2948,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2948,
+                        "name": "seia_chann",
+                        "createdAt": "2026-03-06T15:12:41.000Z",
+                        "updatedAt": "2026-03-06T15:12:41.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30930,
+                    "levelId": 12940,
+                    "isOwner": false,
+                    "creatorId": 2973,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2973,
+                        "name": "나는-_-다",
+                        "createdAt": "2026-03-22T14:41:11.000Z",
+                        "updatedAt": "2026-03-22T14:41:11.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30931,
+                    "levelId": 12940,
+                    "isOwner": false,
+                    "creatorId": 2974,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2974,
+                        "name": "jammini-ee",
+                        "createdAt": "2026-03-22T14:41:40.000Z",
+                        "updatedAt": "2026-03-22T14:41:40.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": {
+                "id": 428,
+                "name": "UnnameD",
+                "description": null,
+                "createdAt": "2026-03-22T14:41:32.000Z",
+                "updatedAt": "2026-03-22T14:41:32.000Z",
+                "teamAliases": [],
+                "aliases": []
+            },
+            "curation": null,
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Full VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 5,
+                    "name": "1+ Minute",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/57cc419e-23b1-49da-a172-41073179ff51/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                }
+            ],
+            "songObject": {
+                "id": 2911,
+                "name": "Twinkle*Winter",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 310,
+                            "name": "brz1128",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 310,
+                    "name": "brz1128",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "UnnameD",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Super_Tritice",
+            "charters": [
+                "Super_Tritice"
+            ],
+            "vfxer": "Super_Tritice",
+            "vfxers": [
+                "Super_Tritice"
+            ],
+            "team": "",
+            "id": 12939,
+            "song": "Galactic D-Savior",
+            "artist": "DJ Raisei & Suzuka",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1X6ScBmENv",
+            "dlLink": "https://api.tuforums.com/cdn/38b4028d-308d-4cea-9a06-dce64b1e8373",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:39:59.000Z",
+            "updatedAt": "2026-03-22T14:39:59.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 2453,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30927,
+                    "levelId": 12939,
+                    "isOwner": false,
+                    "creatorId": 2741,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2741,
+                        "name": "Super_Tritice",
+                        "createdAt": "2025-11-30T05:20:49.000Z",
+                        "updatedAt": "2025-11-30T05:20:49.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30928,
+                    "levelId": 12939,
+                    "isOwner": false,
+                    "creatorId": 2741,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2741,
+                        "name": "Super_Tritice",
+                        "createdAt": "2025-11-30T05:20:49.000Z",
+                        "updatedAt": "2025-11-30T05:20:49.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 15,
+                    "name": "Decorations",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4cdee022-a4ce-4fcc-b0be-f033a973e03e/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 26,
+                    "name": "Judgement Limit",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/d4b12fa4-0d02-4e61-a594-3a4aa2eaea6c/original",
+                    "color": "#da59ff",
+                    "group": "Judgement"
+                }
+            ],
+            "songObject": {
+                "id": 2453,
+                "name": "Galactic D-Savior",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 559,
+                            "name": "DJ Raisei",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": []
+                        }
+                    },
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2158,
+                            "name": "Suzuka",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_declined",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 559,
+                    "name": "DJ Raisei",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": []
+                },
+                {
+                    "id": 2158,
+                    "name": "Suzuka",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_declined",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "Super_TriticeSuper_Tritice",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "DJUnifish",
+            "charters": [
+                "DJUnifish"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12938,
+            "song": "解脱",
+            "artist": "抵达彼岸SpuChestnut",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV136ZrBJEoK",
+            "dlLink": "https://api.tuforums.com/cdn/f8f89ee0-d2c6-4a6e-9d27-9bfea03cc18d",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3664058729&searchtext=%E8%A7%A3%E8%84%B1",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:39:56.000Z",
+            "updatedAt": "2026-03-22T14:39:56.000Z",
+            "isHidden": false,
+            "isVerified": true,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 6413,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30926,
+                    "levelId": 12938,
+                    "isOwner": false,
+                    "creatorId": 795,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 795,
+                        "name": "DJUnifish",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2025-01-22T06:17:22.000Z",
+                        "isVerified": true,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 31,
+                    "name": "Auto Tile",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/f9bf4104-3d9d-4e2c-b656-64fdce978105/original",
+                    "color": "#da2543",
+                    "group": "Misc"
+                },
+                {
+                    "id": 58,
+                    "name": "Camera",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/2f18a763-32e8-4d85-a425-cb6d7a89838f/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 6413,
+                "name": "解脱",
+                "verificationState": "pending",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3862,
+                            "name": "抵达彼岸SpuChestnut",
+                            "avatarUrl": null,
+                            "verificationState": "allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 3862,
+                    "name": "抵达彼岸SpuChestnut",
+                    "avatarUrl": null,
+                    "verificationState": "allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "DJUnifish",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "LinkieN",
+            "charters": [
+                "LinkieN"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12937,
+            "song": "iΓ-fǝRric",
+            "artist": "Shanom",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV13SAgz6EQR",
+            "dlLink": "https://api.tuforums.com/cdn/cf3d397f-a2dc-4242-93ef-81f32a8eb0e5",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T14:39:52.000Z",
+            "updatedAt": "2026-03-22T14:39:52.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 6412,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30925,
+                    "levelId": 12937,
+                    "isOwner": false,
+                    "creatorId": 1663,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1663,
+                        "name": "LinkieN",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2025-09-05T15:39:13.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": [
+                            {
+                                "name": "Linky"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 13,
+                    "name": "Hold",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/5621c6a7-9c07-446e-81cf-9296cd5b45c9/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 22,
+                    "name": "Youtube Stream",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/f46450d8-18cf-421b-88d4-707536b8603a/original",
+                    "color": "#b0c6d1",
+                    "group": "Required Mods"
+                }
+            ],
+            "songObject": {
+                "id": 6412,
+                "name": "iΓ-fǝRric",
+                "verificationState": "pending",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3861,
+                            "name": "Shanom",
+                            "avatarUrl": null,
+                            "verificationState": "pending",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 3861,
+                    "name": "Shanom",
+                    "avatarUrl": null,
+                    "verificationState": "pending",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "LinkieN",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "History",
+            "charters": [
+                "History"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12936,
+            "song": "Arm Breaker",
+            "artist": "ExileLord",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://b23.tv/O7m2WRR",
+            "dlLink": "21级论坛",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T11:31:51.000Z",
+            "updatedAt": "2026-03-22T11:31:51.000Z",
+            "isHidden": false,
+            "isVerified": true,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 5676,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30924,
+                    "levelId": 12936,
+                    "isOwner": false,
+                    "creatorId": 741,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 741,
+                        "name": "History",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2025-01-18T17:01:00.000Z",
+                        "isVerified": true,
+                        "userId": null,
+                        "creatorAliases": [
+                            {
+                                "name": "History24"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [],
+            "songObject": {
+                "id": 5676,
+                "name": "Arm Breaker",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 669,
+                            "name": "ExileLord",
+                            "avatarUrl": null,
+                            "verificationState": "allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 669,
+                    "name": "ExileLord",
+                    "avatarUrl": null,
+                    "verificationState": "allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "History",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "NighEstar",
+            "charters": [
+                "NighEstar"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12935,
+            "song": "Quad Erat Demonstrandum (Low effect)",
+            "artist": "takehirotei",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://b23.tv/tLIlwye",
+            "dlLink": "https://api.tuforums.com/cdn/68c56bfe-cd2e-4415-8872-50c3e90cecb5",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T11:31:46.000Z",
+            "updatedAt": "2026-03-22T11:31:46.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 149,
+            "suffix": "(Low effect)",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30923,
+                    "levelId": 12935,
+                    "isOwner": false,
+                    "creatorId": 1960,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1960,
+                        "name": "NighEstar",
+                        "createdAt": "2025-01-28T09:37:57.000Z",
+                        "updatedAt": "2025-01-28T09:37:57.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Full VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 26,
+                    "name": "Judgement Limit",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/d4b12fa4-0d02-4e61-a594-3a4aa2eaea6c/original",
+                    "color": "#da59ff",
+                    "group": "Judgement"
+                }
+            ],
+            "songObject": {
+                "id": 149,
+                "name": "Quad Erat Demonstrandum",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "qed"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2188,
+                            "name": "takehirotei",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Infinite Limit"
+                                },
+                                {
+                                    "alias": "Finite Limit"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 2188,
+                    "name": "takehirotei",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Infinite Limit"
+                        },
+                        {
+                            "alias": "Finite Limit"
+                        }
+                    ]
+                }
+            ],
+            "creator": "NighEstar",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Synthesis",
+            "charters": [
+                "Synthesis"
+            ],
+            "vfxer": "Synthesis, BKMKMLD, nebula",
+            "vfxers": [
+                "Synthesis",
+                "BKMKMLD",
+                "nebula"
+            ],
+            "team": "",
+            "id": 12934,
+            "song": "Fireworks X Star Gazer (celtix mashup)",
+            "artist": "N_dog & Peri Sound & いなか",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=OjSPqD-OWfs",
+            "dlLink": "https://drive.google.com/file/d/1cyEf_DeIoEWSzUw677o3hAKflwf6-Byk/view?usp=sharing",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T11:31:39.000Z",
+            "updatedAt": "2026-03-22T11:31:39.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 4890,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30919,
+                    "levelId": 12934,
+                    "isOwner": false,
+                    "creatorId": 2048,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2048,
+                        "name": "Synthesis",
+                        "createdAt": "2025-02-12T12:32:18.000Z",
+                        "updatedAt": "2025-02-12T12:32:18.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": [
+                            {
+                                "name": "Cn特5!5"
+                            },
+                            {
+                                "name": "Cn特515"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 30922,
+                    "levelId": 12934,
+                    "isOwner": false,
+                    "creatorId": 2048,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2048,
+                        "name": "Synthesis",
+                        "createdAt": "2025-02-12T12:32:18.000Z",
+                        "updatedAt": "2025-02-12T12:32:18.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": [
+                            {
+                                "name": "Cn特5!5"
+                            },
+                            {
+                                "name": "Cn特515"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 30920,
+                    "levelId": 12934,
+                    "isOwner": false,
+                    "creatorId": 2574,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2574,
+                        "name": "BKMKMLD",
+                        "createdAt": "2025-09-06T05:49:02.000Z",
+                        "updatedAt": "2025-09-06T05:49:02.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30921,
+                    "levelId": 12934,
+                    "isOwner": false,
+                    "creatorId": 2597,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2597,
+                        "name": "nebula",
+                        "createdAt": "2025-09-12T16:00:03.000Z",
+                        "updatedAt": "2025-09-12T16:00:03.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [],
+            "songObject": {
+                "id": 4890,
+                "name": "Fireworks X Star Gazer (celtix mashup)",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1499,
+                            "name": "N_dog",
+                            "avatarUrl": null,
+                            "verificationState": "allowed",
+                            "aliases": []
+                        }
+                    },
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3822,
+                            "name": "Peri Sound",
+                            "avatarUrl": null,
+                            "verificationState": "unverified",
+                            "aliases": []
+                        }
+                    },
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3823,
+                            "name": "いなか",
+                            "avatarUrl": null,
+                            "verificationState": "unverified",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1499,
+                    "name": "N_dog",
+                    "avatarUrl": null,
+                    "verificationState": "allowed",
+                    "role": null,
+                    "aliases": []
+                },
+                {
+                    "id": 3822,
+                    "name": "Peri Sound",
+                    "avatarUrl": null,
+                    "verificationState": "unverified",
+                    "role": null,
+                    "aliases": []
+                },
+                {
+                    "id": 3823,
+                    "name": "いなか",
+                    "avatarUrl": null,
+                    "verificationState": "unverified",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "SynthesisSynthesis2more",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "NighEstar",
+            "charters": [
+                "NighEstar"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12933,
+            "song": "Quad Erat Demonstrandum (Judgement)",
+            "artist": "takehirotei",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1W8AGzwEFF",
+            "dlLink": "https://api.tuforums.com/cdn/b0f88641-41d3-4aae-aeb0-3f39b5eeae58",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T11:31:32.000Z",
+            "updatedAt": "2026-03-22T11:31:32.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 149,
+            "suffix": "(Judgement)",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30918,
+                    "levelId": 12933,
+                    "isOwner": false,
+                    "creatorId": 1960,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1960,
+                        "name": "NighEstar",
+                        "createdAt": "2025-01-28T09:37:57.000Z",
+                        "updatedAt": "2025-01-28T09:37:57.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Full VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 26,
+                    "name": "Judgement Limit",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/d4b12fa4-0d02-4e61-a594-3a4aa2eaea6c/original",
+                    "color": "#da59ff",
+                    "group": "Judgement"
+                }
+            ],
+            "songObject": {
+                "id": 149,
+                "name": "Quad Erat Demonstrandum",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "qed"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2188,
+                            "name": "takehirotei",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Infinite Limit"
+                                },
+                                {
+                                    "alias": "Finite Limit"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 2188,
+                    "name": "takehirotei",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Infinite Limit"
+                        },
+                        {
+                            "alias": "Finite Limit"
+                        }
+                    ]
+                }
+            ],
+            "creator": "NighEstar",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "seia_chann",
+            "charters": [
+                "seia_chann"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12932,
+            "song": "Doppelganger",
+            "artist": "LeaF",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "none",
+            "dlLink": "https://api.tuforums.com/cdn/89ac8448-1c04-4db7-a562-d043cf943489",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T11:31:28.000Z",
+            "updatedAt": "2026-03-22T11:31:28.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 276,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30917,
+                    "levelId": 12932,
+                    "isOwner": false,
+                    "creatorId": 2948,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2948,
+                        "name": "seia_chann",
+                        "createdAt": "2026-03-06T15:12:41.000Z",
+                        "updatedAt": "2026-03-06T15:12:41.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 15,
+                    "name": "Decorations",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4cdee022-a4ce-4fcc-b0be-f033a973e03e/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 26,
+                    "name": "Judgement Limit",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/d4b12fa4-0d02-4e61-a594-3a4aa2eaea6c/original",
+                    "color": "#da59ff",
+                    "group": "Judgement"
+                },
+                {
+                    "id": 29,
+                    "name": "Key Limiter",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/883d4ae0-d1df-4efc-a486-9633368fd7e1/original",
+                    "color": "#b0c6d1",
+                    "group": "Required Mods"
+                }
+            ],
+            "songObject": {
+                "id": 276,
+                "name": "Doppelganger",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1229,
+                            "name": "LeaF",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_declined",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1229,
+                    "name": "LeaF",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_declined",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "seia_chann",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "watering",
+            "charters": [
+                "watering"
+            ],
+            "vfxer": "watering",
+            "vfxers": [
+                "watering"
+            ],
+            "team": "",
+            "id": 12931,
+            "song": "Hello (BPM) 2026",
+            "artist": "Camellia (かめりあ)",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/channel/UCRjVmUQ3CW1kH6vP1VGskWA",
+            "dlLink": "https://api.tuforums.com/cdn/93b688a4-3097-4c5c-875b-b40a0694695d",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3685513834",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T11:31:25.000Z",
+            "updatedAt": "2026-03-22T11:31:25.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 6354,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30915,
+                    "levelId": 12931,
+                    "isOwner": false,
+                    "creatorId": 2967,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2967,
+                        "name": "watering",
+                        "createdAt": "2026-03-18T08:22:41.000Z",
+                        "updatedAt": "2026-03-18T08:22:41.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30916,
+                    "levelId": 12931,
+                    "isOwner": false,
+                    "creatorId": 2967,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2967,
+                        "name": "watering",
+                        "createdAt": "2026-03-18T08:22:41.000Z",
+                        "updatedAt": "2026-03-18T08:22:41.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 1,
+                    "name": "Filters",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/1c24e3b4-b88f-4d2c-9bc0-ff6d13612c0d/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 13,
+                    "name": "Hold",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/5621c6a7-9c07-446e-81cf-9296cd5b45c9/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                }
+            ],
+            "songObject": {
+                "id": 6354,
+                "name": "Hello (BPM) 2026",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "hello bpm 2026"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3027,
+                            "name": "Camellia (かめりあ)",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Camellia"
+                                },
+                                {
+                                    "alias": "かめりあ (Camellia)"
+                                },
+                                {
+                                    "alias": "Camellia (かめりあ)"
+                                },
+                                {
+                                    "alias": "かねりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "かめりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "Cameilla"
+                                },
+                                {
+                                    "alias": "かめりあ(Camelia)"
+                                },
+                                {
+                                    "alias": "かめりあ"
+                                },
+                                {
+                                    "alias": "Camelia"
+                                },
+                                {
+                                    "alias": "Camellia (Cametek)"
+                                },
+                                {
+                                    "alias": "Camellia Remix"
+                                },
+                                {
+                                    "alias": "かめりあ (Cameliia)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 3027,
+                    "name": "Camellia (かめりあ)",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Camellia"
+                        },
+                        {
+                            "alias": "かめりあ (Camellia)"
+                        },
+                        {
+                            "alias": "Camellia (かめりあ)"
+                        },
+                        {
+                            "alias": "かねりあ(Camellia)"
+                        },
+                        {
+                            "alias": "かめりあ(Camellia)"
+                        },
+                        {
+                            "alias": "Cameilla"
+                        },
+                        {
+                            "alias": "かめりあ(Camelia)"
+                        },
+                        {
+                            "alias": "かめりあ"
+                        },
+                        {
+                            "alias": "Camelia"
+                        },
+                        {
+                            "alias": "Camellia (Cametek)"
+                        },
+                        {
+                            "alias": "Camellia Remix"
+                        },
+                        {
+                            "alias": "かめりあ (Cameliia)"
+                        }
+                    ]
+                }
+            ],
+            "creator": "wateringwatering",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "FOOLSNOW_X",
+            "charters": [
+                "FOOLSNOW_X"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12930,
+            "song": "Blackbird (aran Remix)",
+            "artist": "Kobaryo",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=OyJEhk9f3DI",
+            "dlLink": "https://api.tuforums.com/cdn/9e33413a-aaba-4c87-89f5-db10f30a9b32",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T11:31:21.000Z",
+            "updatedAt": "2026-03-22T11:31:21.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 1196,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30914,
+                    "levelId": 12930,
+                    "isOwner": false,
+                    "creatorId": 2760,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2760,
+                        "name": "FOOLSNOW_X",
+                        "createdAt": "2025-12-14T09:57:51.000Z",
+                        "updatedAt": "2025-12-14T09:57:51.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 1196,
+                "name": "Blackbird (aran Remix)",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1,
+                            "name": "Kobaryo",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1,
+                    "name": "Kobaryo",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "FOOLSNOW_X",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Daccaplores, GDZTK",
+            "charters": [
+                "Daccaplores",
+                "GDZTK"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12929,
+            "song": "Silent Distruction (Nerfed)",
+            "artist": "Nickname",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1iSANzNEPs",
+            "dlLink": "https://api.tuforums.com/cdn/af0c6494-1609-4395-b921-76492af209b1",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:32.000Z",
+            "updatedAt": "2026-03-22T03:33:32.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 3706,
+            "suffix": "(Nerfed)",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30912,
+                    "levelId": 12929,
+                    "isOwner": false,
+                    "creatorId": 40,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 40,
+                        "name": "Daccaplores",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2025-01-11T01:22:28.000Z",
+                        "isVerified": true,
+                        "userId": null,
+                        "creatorAliases": [
+                            {
+                                "name": "Amaryllis"
+                            },
+                            {
+                                "name": "Dacapo"
+                            },
+                            {
+                                "name": "IdentitySmile"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 30913,
+                    "levelId": 12929,
+                    "isOwner": false,
+                    "creatorId": 2847,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2847,
+                        "name": "GDZTK",
+                        "createdAt": "2026-01-25T17:02:27.000Z",
+                        "updatedAt": "2026-01-25T17:02:27.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 5,
+                    "name": "1+ Minute",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/57cc419e-23b1-49da-a172-41073179ff51/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 3706,
+                "name": "Silent Distruction",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2990,
+                            "name": "Nickname",
+                            "avatarUrl": null,
+                            "verificationState": "unverified",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 2990,
+                    "name": "Nickname",
+                    "avatarUrl": null,
+                    "verificationState": "unverified",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "DaccaploresGDZTK",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "零号公园",
+            "charters": [
+                "零号公园"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12928,
+            "song": "After the Demise Semi Nerfed",
+            "artist": "KreScent & zsry",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=FOIc84qGChI",
+            "dlLink": "https://api.tuforums.com/cdn/4255bd51-e709-4eaa-8fa6-20dd55611dce",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:32.000Z",
+            "updatedAt": "2026-03-22T03:33:32.000Z",
+            "isHidden": false,
+            "isVerified": true,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 2657,
+            "suffix": "Semi Nerfed",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30911,
+                    "levelId": 12928,
+                    "isOwner": false,
+                    "creatorId": 561,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 561,
+                        "name": "零号公园",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2026-01-11T10:47:31.000Z",
+                        "isVerified": true,
+                        "userId": "963b8481-3f7b-4b4f-aa7a-151f7e14e212",
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 13,
+                    "name": "Hold",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/5621c6a7-9c07-446e-81cf-9296cd5b45c9/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 14,
+                    "name": "Multi Planet",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/37ad84ad-6aa2-4080-81b1-dca191a84aa2/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                }
+            ],
+            "songObject": {
+                "id": 2657,
+                "name": "After the Demise",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "atd"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1174,
+                            "name": "KreScent",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_declined",
+                            "aliases": [
+                                {
+                                    "alias": "Kresent"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2568,
+                            "name": "zsry",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_declined",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1174,
+                    "name": "KreScent",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_declined",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Kresent"
+                        }
+                    ]
+                },
+                {
+                    "id": 2568,
+                    "name": "zsry",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_declined",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "零号公园",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Navigation135",
+            "charters": [
+                "Navigation135"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12927,
+            "song": "QuomodocunquizE",
+            "artist": "Camellia (かめりあ)",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=z-P1hcvAuh4",
+            "dlLink": "https://api.tuforums.com/cdn/a273a4c2-991d-418b-92d5-49ef365f59e0",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3689191152",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:28.000Z",
+            "updatedAt": "2026-03-22T03:33:28.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 3251,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30910,
+                    "levelId": 12927,
+                    "isOwner": false,
+                    "creatorId": 2972,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2972,
+                        "name": "Navigation135",
+                        "createdAt": "2026-03-22T03:33:26.000Z",
+                        "updatedAt": "2026-03-22T03:33:26.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 31,
+                    "name": "Auto Tile",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/f9bf4104-3d9d-4e2c-b656-64fdce978105/original",
+                    "color": "#da2543",
+                    "group": "Misc"
+                }
+            ],
+            "songObject": {
+                "id": 3251,
+                "name": "QuomodocunquizE",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "QuomodocunquizE (16K)"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3027,
+                            "name": "Camellia (かめりあ)",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Camellia"
+                                },
+                                {
+                                    "alias": "かめりあ (Camellia)"
+                                },
+                                {
+                                    "alias": "Camellia (かめりあ)"
+                                },
+                                {
+                                    "alias": "かねりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "かめりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "Cameilla"
+                                },
+                                {
+                                    "alias": "かめりあ(Camelia)"
+                                },
+                                {
+                                    "alias": "かめりあ"
+                                },
+                                {
+                                    "alias": "Camelia"
+                                },
+                                {
+                                    "alias": "Camellia (Cametek)"
+                                },
+                                {
+                                    "alias": "Camellia Remix"
+                                },
+                                {
+                                    "alias": "かめりあ (Cameliia)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 3027,
+                    "name": "Camellia (かめりあ)",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Camellia"
+                        },
+                        {
+                            "alias": "かめりあ (Camellia)"
+                        },
+                        {
+                            "alias": "Camellia (かめりあ)"
+                        },
+                        {
+                            "alias": "かねりあ(Camellia)"
+                        },
+                        {
+                            "alias": "かめりあ(Camellia)"
+                        },
+                        {
+                            "alias": "Cameilla"
+                        },
+                        {
+                            "alias": "かめりあ(Camelia)"
+                        },
+                        {
+                            "alias": "かめりあ"
+                        },
+                        {
+                            "alias": "Camelia"
+                        },
+                        {
+                            "alias": "Camellia (Cametek)"
+                        },
+                        {
+                            "alias": "Camellia Remix"
+                        },
+                        {
+                            "alias": "かめりあ (Cameliia)"
+                        }
+                    ]
+                }
+            ],
+            "creator": "Navigation135",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "零号公园",
+            "charters": [
+                "零号公园"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12926,
+            "song": "Acht Streiks",
+            "artist": "Human Servant",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1RPAczJE59",
+            "dlLink": "https://api.tuforums.com/cdn/486dcbd0-44cc-4620-8cc7-971bcf68421b",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:23.000Z",
+            "updatedAt": "2026-03-22T03:33:23.000Z",
+            "isHidden": false,
+            "isVerified": true,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 418,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30909,
+                    "levelId": 12926,
+                    "isOwner": false,
+                    "creatorId": 561,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 561,
+                        "name": "零号公园",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2026-01-11T10:47:31.000Z",
+                        "isVerified": true,
+                        "userId": "963b8481-3f7b-4b4f-aa7a-151f7e14e212",
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 418,
+                "name": "Acht Streiks",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 897,
+                            "name": "Human Servant",
+                            "avatarUrl": null,
+                            "verificationState": "allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 897,
+                    "name": "Human Servant",
+                    "avatarUrl": null,
+                    "verificationState": "allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "零号公园",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "YN",
+            "charters": [
+                "YN"
+            ],
+            "vfxer": "YN",
+            "vfxers": [
+                "YN"
+            ],
+            "team": "",
+            "id": 12925,
+            "song": "Move on",
+            "artist": "Zoftle",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1JcAAzcEnT",
+            "dlLink": "https://api.tuforums.com/cdn/ccd6cb30-fa12-4546-b9a1-b9eeb8ccdef4",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:21.000Z",
+            "updatedAt": "2026-03-22T03:33:21.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 6411,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30907,
+                    "levelId": 12925,
+                    "isOwner": false,
+                    "creatorId": 1371,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1371,
+                        "name": "YN",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2026-02-08T00:48:17.000Z",
+                        "isVerified": false,
+                        "userId": "f5b9537f-542c-4fd6-912a-204a2c695773",
+                        "creatorAliases": [
+                            {
+                                "name": "YN(Tony)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 30908,
+                    "levelId": 12925,
+                    "isOwner": false,
+                    "creatorId": 1371,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1371,
+                        "name": "YN",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2026-02-08T00:48:17.000Z",
+                        "isVerified": false,
+                        "userId": "f5b9537f-542c-4fd6-912a-204a2c695773",
+                        "creatorAliases": [
+                            {
+                                "name": "YN(Tony)"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 3,
+                    "name": "Full VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 6411,
+                "name": "Move on",
+                "verificationState": "pending",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 2564,
+                            "name": "Zoftle",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 2564,
+                    "name": "Zoftle",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "YNYN",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "AP101",
+            "charters": [
+                "AP101"
+            ],
+            "vfxer": "ZeYu, AP70",
+            "vfxers": [
+                "ZeYu",
+                "AP70"
+            ],
+            "team": "",
+            "id": 12924,
+            "song": "777 (Camellia's \"7,777cc\" Remix)",
+            "artist": "RoughSketch & Camellia (かめりあ)",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV12WAAz5EUA",
+            "dlLink": "https://api.tuforums.com/cdn/752e3921-8204-4e85-b242-c6871dcf6070",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:11.000Z",
+            "updatedAt": "2026-03-22T03:33:11.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 3178,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30906,
+                    "levelId": 12924,
+                    "isOwner": false,
+                    "creatorId": 458,
+                    "role": "vfxer",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 458,
+                        "name": "ZeYu",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2025-01-13T09:17:15.000Z",
+                        "isVerified": true,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30904,
+                    "levelId": 12924,
+                    "isOwner": false,
+                    "creatorId": 2632,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2632,
+                        "name": "AP101",
+                        "createdAt": "2025-10-02T11:41:08.000Z",
+                        "updatedAt": "2026-01-11T08:27:18.000Z",
+                        "isVerified": false,
+                        "userId": "cd5b9b6c-3eb1-49aa-8a5e-258835312586",
+                        "creatorAliases": []
+                    }
+                },
+                {
+                    "id": 30905,
+                    "levelId": 12924,
+                    "isOwner": false,
+                    "creatorId": 2770,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2770,
+                        "name": "AP70",
+                        "createdAt": "2025-12-24T07:56:07.000Z",
+                        "updatedAt": "2025-12-24T07:56:07.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 15,
+                    "name": "Decorations",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4cdee022-a4ce-4fcc-b0be-f033a973e03e/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 31,
+                    "name": "Auto Tile",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/f9bf4104-3d9d-4e2c-b656-64fdce978105/original",
+                    "color": "#da2543",
+                    "group": "Misc"
+                }
+            ],
+            "songObject": {
+                "id": 3178,
+                "name": "777 (Camellia's \"7,777cc\" Remix)",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "777 (かめりあ's \"7,777cc\" Remix)"
+                    },
+                    {
+                        "alias": "7777cc remix"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1899,
+                            "name": "RoughSketch",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "DJ Laugh"
+                                },
+                                {
+                                    "alias": "uno"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3027,
+                            "name": "Camellia (かめりあ)",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Camellia"
+                                },
+                                {
+                                    "alias": "かめりあ (Camellia)"
+                                },
+                                {
+                                    "alias": "Camellia (かめりあ)"
+                                },
+                                {
+                                    "alias": "かねりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "かめりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "Cameilla"
+                                },
+                                {
+                                    "alias": "かめりあ(Camelia)"
+                                },
+                                {
+                                    "alias": "かめりあ"
+                                },
+                                {
+                                    "alias": "Camelia"
+                                },
+                                {
+                                    "alias": "Camellia (Cametek)"
+                                },
+                                {
+                                    "alias": "Camellia Remix"
+                                },
+                                {
+                                    "alias": "かめりあ (Cameliia)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1899,
+                    "name": "RoughSketch",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "DJ Laugh"
+                        },
+                        {
+                            "alias": "uno"
+                        }
+                    ]
+                },
+                {
+                    "id": 3027,
+                    "name": "Camellia (かめりあ)",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Camellia"
+                        },
+                        {
+                            "alias": "かめりあ (Camellia)"
+                        },
+                        {
+                            "alias": "Camellia (かめりあ)"
+                        },
+                        {
+                            "alias": "かねりあ(Camellia)"
+                        },
+                        {
+                            "alias": "かめりあ(Camellia)"
+                        },
+                        {
+                            "alias": "Cameilla"
+                        },
+                        {
+                            "alias": "かめりあ(Camelia)"
+                        },
+                        {
+                            "alias": "かめりあ"
+                        },
+                        {
+                            "alias": "Camelia"
+                        },
+                        {
+                            "alias": "Camellia (Cametek)"
+                        },
+                        {
+                            "alias": "Camellia Remix"
+                        },
+                        {
+                            "alias": "かめりあ (Cameliia)"
+                        }
+                    ]
+                }
+            ],
+            "creator": "AP101ZeYu1more",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "llllaio",
+            "charters": [
+                "llllaio"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12923,
+            "song": "《Ж》",
+            "artist": "TRiNiTUM",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1bFAPzSEVQ",
+            "dlLink": "https://api.tuforums.com/cdn/51919f2d-c284-4197-b023-396247bf1992",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:00.000Z",
+            "updatedAt": "2026-03-22T03:33:00.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 2500,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30903,
+                    "levelId": 12923,
+                    "isOwner": false,
+                    "creatorId": 2196,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2196,
+                        "name": "llllaio",
+                        "createdAt": "2025-04-06T04:20:18.000Z",
+                        "updatedAt": "2025-04-06T04:20:18.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 13,
+                    "name": "Hold",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/5621c6a7-9c07-446e-81cf-9296cd5b45c9/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 58,
+                    "name": "Camera",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/2f18a763-32e8-4d85-a425-cb6d7a89838f/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 2500,
+                "name": "《Ж》",
+                "verificationState": "allowed",
+                "aliases": [
+                    {
+                        "alias": "<X>"
+                    }
+                ],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3651,
+                            "name": "TRiNiTUM",
+                            "avatarUrl": null,
+                            "verificationState": "unverified",
+                            "aliases": [
+                                {
+                                    "alias": "TRiNiTUM (LYRi \"Cyanblue\" WHiTE × NIKANON)"
+                                },
+                                {
+                                    "alias": "TRiNiTUM (tkqn14 × NIKANON)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 3651,
+                    "name": "TRiNiTUM",
+                    "avatarUrl": null,
+                    "verificationState": "unverified",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "TRiNiTUM (LYRi \"Cyanblue\" WHiTE × NIKANON)"
+                        },
+                        {
+                            "alias": "TRiNiTUM (tkqn14 × NIKANON)"
+                        }
+                    ]
+                }
+            ],
+            "creator": "llllaio",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "MMXCawa",
+            "charters": [
+                "MMXCawa"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12922,
+            "song": "Meltdown (From \"MC Championship Season 2\")",
+            "artist": "Noxcrew",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1bZrpYoEwq",
+            "dlLink": "https://api.tuforums.com/cdn/60a4eaaa-ac87-4cbb-9864-127188aa9048",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:33:00.000Z",
+            "updatedAt": "2026-03-22T03:33:00.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 6410,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30902,
+                    "levelId": 12922,
+                    "isOwner": false,
+                    "creatorId": 1558,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1558,
+                        "name": "MMXCawa",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2026-01-11T08:47:08.000Z",
+                        "isVerified": false,
+                        "userId": "19686bc4-f7fa-474c-a4f6-b4967ecc96fe",
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 6,
+                    "name": "5+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/d78706d0-ba44-418d-a0a2-8d1237e80d29/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 6410,
+                "name": "Meltdown (From \"MC Championship Season 2\")",
+                "verificationState": "pending",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1605,
+                            "name": "Noxcrew",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Isaac Wilkins"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1605,
+                    "name": "Noxcrew",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Isaac Wilkins"
+                        }
+                    ]
+                }
+            ],
+            "creator": "MMXCawa",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "OMCard, Shirotoko ",
+            "charters": [
+                "OMCard",
+                "Shirotoko "
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12921,
+            "song": "PIONEER-3 (Nerfed)",
+            "artist": "II-L",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.youtube.com/watch?v=1IT7euOX02U",
+            "dlLink": "https://api.tuforums.com/cdn/bc5d1f50-43b9-499a-a50d-4e401dd1a6b9",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:32:57.000Z",
+            "updatedAt": "2026-03-22T03:32:57.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 1772,
+            "suffix": "(Nerfed)",
+            "clears": 4,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30900,
+                    "levelId": 12921,
+                    "isOwner": false,
+                    "creatorId": 952,
+                    "role": "charter",
+                    "isVerified": true,
+                    "creator": {
+                        "id": 952,
+                        "name": "OMCard",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2026-02-02T07:25:45.000Z",
+                        "isVerified": true,
+                        "userId": "196b3579-858e-4d2d-b2d2-3753da219de4",
+                        "creatorAliases": [
+                            {
+                                "name": "Card"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 30901,
+                    "levelId": 12921,
+                    "isOwner": false,
+                    "creatorId": 1946,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1946,
+                        "name": "Shirotoko ",
+                        "createdAt": "2025-01-23T07:03:02.000Z",
+                        "updatedAt": "2025-01-23T07:03:02.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 1,
+                    "name": "Filters",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/1c24e3b4-b88f-4d2c-9bc0-ff6d13612c0d/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                }
+            ],
+            "songObject": {
+                "id": 1772,
+                "name": "PIONEER-3",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 926,
+                            "name": "II-L",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 926,
+                    "name": "II-L",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "OMCardShirotoko",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "MMXCawa",
+            "charters": [
+                "MMXCawa"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12920,
+            "song": "Ace Race (From \"MC Championship Season 2\")",
+            "artist": "Noxcrew",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1qRa2evExk",
+            "dlLink": "https://api.tuforums.com/cdn/3d4d6440-6d8c-47d9-a5fd-6af78e72ee82",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:32:52.000Z",
+            "updatedAt": "2026-03-22T03:32:52.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 6409,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30899,
+                    "levelId": 12920,
+                    "isOwner": false,
+                    "creatorId": 1558,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 1558,
+                        "name": "MMXCawa",
+                        "createdAt": "2025-01-11T00:00:39.000Z",
+                        "updatedAt": "2026-01-11T08:47:08.000Z",
+                        "isVerified": false,
+                        "userId": "19686bc4-f7fa-474c-a4f6-b4967ecc96fe",
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 1,
+                    "name": "Filters",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/1c24e3b4-b88f-4d2c-9bc0-ff6d13612c0d/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                }
+            ],
+            "songObject": {
+                "id": 6409,
+                "name": "Ace Race (From \"MC Championship Season 2\")",
+                "verificationState": "pending",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1605,
+                            "name": "Noxcrew",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Isaac Wilkins"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1605,
+                    "name": "Noxcrew",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Isaac Wilkins"
+                        }
+                    ]
+                }
+            ],
+            "creator": "MMXCawa",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Vialln",
+            "charters": [
+                "Vialln"
+            ],
+            "vfxer": "Vialln",
+            "vfxers": [
+                "Vialln"
+            ],
+            "team": "",
+            "id": 12919,
+            "song": "Chimera Dragons ~cosmos~",
+            "artist": "Camellia (かめりあ)",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1k4AczeEZn",
+            "dlLink": "https://api.tuforums.com/cdn/29219762-07dc-4add-9bfc-919e57212c58",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:32:45.000Z",
+            "updatedAt": "2026-03-22T03:32:45.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 3252,
+            "suffix": "~cosmos~",
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30897,
+                    "levelId": 12919,
+                    "isOwner": false,
+                    "creatorId": 2567,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2567,
+                        "name": "Vialln",
+                        "createdAt": "2025-09-01T16:41:31.000Z",
+                        "updatedAt": "2026-01-11T09:11:23.000Z",
+                        "isVerified": false,
+                        "userId": "430b9594-184f-4e18-9565-3dd8a36a6fc6",
+                        "creatorAliases": [
+                            {
+                                "name": "CDUDH"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 30898,
+                    "levelId": 12919,
+                    "isOwner": false,
+                    "creatorId": 2567,
+                    "role": "vfxer",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2567,
+                        "name": "Vialln",
+                        "createdAt": "2025-09-01T16:41:31.000Z",
+                        "updatedAt": "2026-01-11T09:11:23.000Z",
+                        "isVerified": false,
+                        "userId": "430b9594-184f-4e18-9565-3dd8a36a6fc6",
+                        "creatorAliases": [
+                            {
+                                "name": "CDUDH"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "3+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 13,
+                    "name": "Hold",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/5621c6a7-9c07-446e-81cf-9296cd5b45c9/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 14,
+                    "name": "Multi Planet",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/37ad84ad-6aa2-4080-81b1-dca191a84aa2/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 58,
+                    "name": "Camera",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/2f18a763-32e8-4d85-a425-cb6d7a89838f/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 3252,
+                "name": "Chimera Dragons",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 3027,
+                            "name": "Camellia (かめりあ)",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_allowed",
+                            "aliases": [
+                                {
+                                    "alias": "Camellia"
+                                },
+                                {
+                                    "alias": "かめりあ (Camellia)"
+                                },
+                                {
+                                    "alias": "Camellia (かめりあ)"
+                                },
+                                {
+                                    "alias": "かねりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "かめりあ(Camellia)"
+                                },
+                                {
+                                    "alias": "Cameilla"
+                                },
+                                {
+                                    "alias": "かめりあ(Camelia)"
+                                },
+                                {
+                                    "alias": "かめりあ"
+                                },
+                                {
+                                    "alias": "Camelia"
+                                },
+                                {
+                                    "alias": "Camellia (Cametek)"
+                                },
+                                {
+                                    "alias": "Camellia Remix"
+                                },
+                                {
+                                    "alias": "かめりあ (Cameliia)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 3027,
+                    "name": "Camellia (かめりあ)",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_allowed",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Camellia"
+                        },
+                        {
+                            "alias": "かめりあ (Camellia)"
+                        },
+                        {
+                            "alias": "Camellia (かめりあ)"
+                        },
+                        {
+                            "alias": "かねりあ(Camellia)"
+                        },
+                        {
+                            "alias": "かめりあ(Camellia)"
+                        },
+                        {
+                            "alias": "Cameilla"
+                        },
+                        {
+                            "alias": "かめりあ(Camelia)"
+                        },
+                        {
+                            "alias": "かめりあ"
+                        },
+                        {
+                            "alias": "Camelia"
+                        },
+                        {
+                            "alias": "Camellia (Cametek)"
+                        },
+                        {
+                            "alias": "Camellia Remix"
+                        },
+                        {
+                            "alias": "かめりあ (Cameliia)"
+                        }
+                    ]
+                }
+            ],
+            "creator": "ViallnVialln",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "LIN_smirlary",
+            "charters": [
+                "LIN_smirlary"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12918,
+            "song": "Chronomia",
+            "artist": "Lime",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1towfzKE2C",
+            "dlLink": "https://api.tuforums.com/cdn/522aaf9c-b19f-4210-85ab-f76ffd085c54",
+            "legacyDllink": "",
+            "workshopLink": "",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:32:42.000Z",
+            "updatedAt": "2026-03-22T03:32:42.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 725,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30896,
+                    "levelId": 12918,
+                    "isOwner": false,
+                    "creatorId": 2792,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2792,
+                        "name": "LIN_smirlary",
+                        "createdAt": "2025-12-28T15:40:20.000Z",
+                        "updatedAt": "2025-12-28T15:40:20.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 15,
+                    "name": "Decorations",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4cdee022-a4ce-4fcc-b0be-f033a973e03e/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                }
+            ],
+            "songObject": {
+                "id": 725,
+                "name": "Chronomia",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1261,
+                            "name": "Lime",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_declined",
+                            "aliases": [
+                                {
+                                    "alias": "Kankitsu (a.k.a Lime)"
+                                },
+                                {
+                                    "alias": "Kankitsu(Lime)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1261,
+                    "name": "Lime",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_declined",
+                    "role": null,
+                    "aliases": [
+                        {
+                            "alias": "Kankitsu (a.k.a Lime)"
+                        },
+                        {
+                            "alias": "Kankitsu(Lime)"
+                        }
+                    ]
+                }
+            ],
+            "creator": "LIN_smirlary",
+            "rating": {},
+            "isCurated": false
+        },
+        {
+            "firstPass": null,
+            "highestAccuracy": null,
+            "charter": "Z-box",
+            "charters": [
+                "Z-box"
+            ],
+            "vfxer": "",
+            "vfxers": [],
+            "team": "",
+            "id": 12917,
+            "song": "Gears of Fate",
+            "artist": "Laur",
+            "diffId": 0,
+            "baseScore": 0,
+            "ppBaseScore": null,
+            "previousBaseScore": null,
+            "videoLink": "https://www.bilibili.com/video/BV1irAHz1EBp",
+            "dlLink": "https://api.tuforums.com/cdn/ee1d23d5-93d8-4bbb-a4ff-f5eec9fe606c",
+            "legacyDllink": "",
+            "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3688486984",
+            "publicComments": "",
+            "toRate": true,
+            "rerateReason": "",
+            "rerateNum": "",
+            "previousDiffId": 0,
+            "isAnnounced": false,
+            "isDeleted": false,
+            "createdAt": "2026-03-22T03:32:39.000Z",
+            "updatedAt": "2026-03-22T03:32:39.000Z",
+            "isHidden": false,
+            "isVerified": false,
+            "isExternallyAvailable": false,
+            "teamId": null,
+            "songId": 2529,
+            "suffix": null,
+            "clears": 0,
+            "likes": 0,
+            "ratingAccuracy": 0,
+            "totalRatingAccuracyVotes": 0,
+            "difficulty": {
+                "id": 0,
+                "name": "Unranked",
+                "type": "SPECIAL",
+                "icon": "https://api.tuforums.com/v2/media/image/icon/Unranked.png",
+                "emoji": "<:lv00:1044194459417591858>",
+                "color": "#ffffff",
+                "createdAt": "2025-01-11T00:00:27.000Z",
+                "updatedAt": "2025-01-11T00:00:27.000Z",
+                "baseScore": 0,
+                "sortOrder": 0,
+                "legacy": "0",
+                "legacyIcon": null,
+                "legacyEmoji": null
+            },
+            "aliases": [],
+            "levelCredits": [
+                {
+                    "id": 30895,
+                    "levelId": 12917,
+                    "isOwner": false,
+                    "creatorId": 2411,
+                    "role": "charter",
+                    "isVerified": false,
+                    "creator": {
+                        "id": 2411,
+                        "name": "Z-box",
+                        "createdAt": "2025-07-19T03:44:14.000Z",
+                        "updatedAt": "2025-07-19T03:44:14.000Z",
+                        "isVerified": false,
+                        "userId": null,
+                        "creatorAliases": []
+                    }
+                }
+            ],
+            "teamObject": null,
+            "curation": null,
+            "tags": [
+                {
+                    "id": 7,
+                    "name": "2+ Minutes",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+                    "color": "#fff5c9",
+                    "group": "Length"
+                },
+                {
+                    "id": 11,
+                    "name": "DLC",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                },
+                {
+                    "id": 12,
+                    "name": "Low VFX",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+                    "color": "#e1a8ff",
+                    "group": "VFX"
+                },
+                {
+                    "id": 13,
+                    "name": "Hold",
+                    "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/5621c6a7-9c07-446e-81cf-9296cd5b45c9/original",
+                    "color": "#809dff",
+                    "group": "DLC"
+                }
+            ],
+            "songObject": {
+                "id": 2529,
+                "name": "Gears of Fate",
+                "verificationState": "allowed",
+                "aliases": [],
+                "credits": [
+                    {
+                        "role": null,
+                        "artist": {
+                            "id": 1224,
+                            "name": "Laur",
+                            "avatarUrl": null,
+                            "verificationState": "mostly_declined",
+                            "aliases": []
+                        }
+                    }
+                ]
+            },
+            "ratings": [],
+            "artists": [
+                {
+                    "id": 1224,
+                    "name": "Laur",
+                    "avatarUrl": null,
+                    "verificationState": "mostly_declined",
+                    "role": null,
+                    "aliases": []
+                }
+            ],
+            "creator": "Zbox",
+            "rating": {},
+            "isCurated": false
+        }
+    ],
+    "page": 1,
+    "offset": 0,
+    "limit": 30,
+    "hasMore": true,
+    "total": 11843
+}

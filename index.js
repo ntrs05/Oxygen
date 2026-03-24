@@ -1,0 +1,311 @@
+require('dotenv').config();
+const {
+    Client,
+    GatewayIntentBits,
+    EmbedBuilder,
+    ActionRowBuilder,
+    ButtonBuilder,
+    ButtonStyle,
+    Events,
+    REST,
+    Routes
+} = require('discord.js');
+const { init, getAuthToken } = require('@heyputer/puter.js/src/init.cjs');
+let puter; 
+const { level_search } = require('./scraper');
+
+// Client setup
+const client = new Client({
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
+});
+
+const systemPrompt = require('./prompt');
+
+// Bộ nhớ lưu lịch sử chat của từng người
+const chatSessions = new Map();
+
+const perPage = 5;
+
+// Create an embed message
+function createEmbed(data, query, currentPage, totalPages) {
+    const embed = new EmbedBuilder()
+        .setTitle(`🔎 Results for \`${query}\``)
+        .setDescription(`**Page ${currentPage}/${totalPages}** (Total ${data.length} levels found)\n---`)
+        .setColor(0x0099FF)
+        .setFooter({ text: "Data provided by The Universal Forums" });
+
+    const startIdx = (currentPage - 1) * perPage;
+    const pageData = data.slice(startIdx, startIdx + perPage);
+
+    pageData.forEach((item, index) => {
+        const title = `#${startIdx + index + 1}. ${item.song} (ID: ${item.id})`;
+        const content = `**Charter:** ${item.charter}\n` +
+            `**Difficulty:** ${item.difficulty}\n` +
+            `**Artist:** ${item.artist}\n` +
+            `**Map Preview:** [Video Link](${item.video_link})\n` +
+            `**More info:** [Click here](https://tuforums.com/levels/${item.id})\n\n`;
+        embed.addFields({ name: title, value: content, inline: false });
+    });
+
+    return embed;
+}
+
+// Pagination buttons
+function createButtons(currentPage, totalPages) {
+    return new ActionRowBuilder().addComponents(
+        new ButtonBuilder()
+            .setCustomId('prev')
+            .setLabel('Prev')
+            .setStyle(ButtonStyle.Primary)
+            .setDisabled(currentPage <= 1 || totalPages === 0),
+        new ButtonBuilder()
+            .setCustomId('next')
+            .setLabel('Next')
+            .setStyle(ButtonStyle.Primary)
+            .setDisabled(currentPage >= totalPages || totalPages === 0)
+    );
+}
+
+// Bot online
+client.once(Events.ClientReady, async () => {
+    console.log(`${client.user.tag} is ready!`);
+
+    try {
+        console.log("Đang kết nối hệ thống AI của Puter...");
+        
+        // Nếu đã lưu Token trong file .env thì lấy ra xài luôn
+        if (process.env.PUTER_TOKEN) {
+            puter = init(process.env.PUTER_TOKEN);
+        } else {
+            // Nếu chưa có, Puter sẽ tự động bật 1 tab Chrome lên để bạn bấm nút Cấp quyền
+            const token = await getAuthToken(); 
+            puter = init(token);
+        }
+        console.log("Puter AI đã kết nối thành công!");
+    } catch (err) {
+        console.error("Lỗi kết nối Puter:", err);
+    }
+
+    // Set up slash commands
+    const commands = [{
+        name: 'level',
+        description: 'Find ADOFAI levels on TUF',
+        options: [
+            { name: 'level_name', type: 3, description: 'Enter the song you want to search for' },
+            { name: 'level_id', type: 4, description: 'Or enter the level ID' },
+            { name: 'artist_name', type: 3, description: 'Or enter the artist name' },
+            { name: 'difficulty', type: 3, description: 'Level difficulty' }
+        ]
+    }];
+
+    const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
+    try {
+        await rest.put(Routes.applicationCommands(client.user.id), { body: commands });
+    } catch (error) {
+        console.error("Error when registering commands:", error);
+    }
+});
+
+// Slash command handler
+client.on(Events.InteractionCreate, async interaction => {
+    if (!interaction.isChatInputCommand()) return;
+
+    if (interaction.commandName === 'level') {
+        const level_name = interaction.options.getString('level_name');
+        const level_id = interaction.options.getInteger('level_id');
+        const artist_name = interaction.options.getString('artist_name');
+        const difficulty = interaction.options.getString('difficulty');
+
+        if (!level_name && !level_id && !artist_name && !difficulty) {
+            return interaction.reply({
+                content: "Please provide either a level name, a level ID, an artist name, or a difficulty to search for.",
+                ephemeral: true
+            });
+        }
+
+        await interaction.deferReply();
+
+        const results = await level_search({ level_name, level_id, artist_name, difficulty });
+
+        if (results && results.length > 0) {
+            let display_query = "";
+            if (level_id) display_query = `ID: ${level_id}`;
+            else if (level_name && artist_name) display_query = `${level_name} (Artist: ${artist_name})`;
+            else if (artist_name) display_query = `Artist: ${artist_name}`;
+            else if (difficulty) display_query = `Difficulty: ${difficulty}`;
+            else display_query = level_name;
+
+            let currentPage = 1;
+            const totalPages = Math.ceil(results.length / perPage);
+
+            const responseMessage = await interaction.followUp({
+                embeds: [createEmbed(results, display_query, currentPage, totalPages)],
+                components: [createButtons(currentPage, totalPages)],
+                fetchReply: true
+            });
+
+            // Set timeout for button interactions (ms)
+            const collector = responseMessage.createMessageComponentCollector({ time: 120000 });
+
+            collector.on('collect', async i => {
+                // Block users other than the command invoker from using the buttons
+                if (i.user.id !== interaction.user.id) {
+                    return i.reply({ content: "These buttons aren't for you!", ephemeral: true });
+                }
+
+                if (i.customId === 'prev') currentPage--;
+                if (i.customId === 'next') currentPage++;
+
+                await i.update({
+                    embeds: [createEmbed(results, display_query, currentPage, totalPages)],
+                    components: [createButtons(currentPage, totalPages)]
+                });
+            });
+
+            // After timeout, disable buttons
+            collector.on('end', () => {
+                interaction.editReply({ components: [] }).catch(() => { });
+            });
+
+        } else {
+            await interaction.followUp({ content: "No levels found.", ephemeral: true });
+        }
+    }
+});
+
+client.on(Events.MessageCreate, async message => {
+    if (message.author.bot) return;
+
+    // Khi có người tag bot
+    if (message.mentions.has(client.user.id)) {
+        const userInput = message.content.replace(`<@${client.user.id}>`, '').trim();
+
+        if (!userInput) {
+            return message.reply("How can I help?");
+        }
+
+        await message.channel.sendTyping();
+
+        try {
+            if (!chatSessions.has(message.author.id)) {
+                chatSessions.set(message.author.id, [
+                    { role: 'system', content: systemPrompt }
+                ]);
+            }
+
+            const history = chatSessions.get(message.author.id);
+            history.push({ role: 'user', content: userInput });
+
+            let aiResponse = await puter.ai.chat(history);
+            let replyText = "";
+
+            if (typeof aiResponse === 'string') replyText = aiResponse;
+            else if (aiResponse?.message) replyText = aiResponse.message.content || aiResponse.message;
+            else if (aiResponse?.text) replyText = aiResponse.text;
+            else replyText = JSON.stringify(aiResponse);
+
+            const searchMatch = replyText.match(/\[SEARCH:(.*?)\]/);
+
+            // Các biến dùng để chứa Giao diện nút bấm nếu có tìm kiếm
+            let searchEmbeds = [];
+            let searchComponents = [];
+            let searchResults = []; 
+            let displayQuery = "";
+
+            if (searchMatch) {
+                const params = searchMatch[1].split('|').map(s => s.trim());
+                const searchParams = {
+                    level_name: params[0] || null,
+                    level_id: params[1] ? parseInt(params[1], 10) : null,
+                    artist_name: params[2] || null,
+                    difficulty: params[3] || null
+                };
+
+                // Lấy TOÀN BỘ kết quả từ API
+                searchResults = await level_search(searchParams);
+
+                let systemFeedback = "";
+                if (searchResults && searchResults.length > 0) {
+                    // Vẫn chỉ mớm 3 map đầu cho AI đọc để nó biết sơ sơ
+                    const topResults = searchResults.slice(0, 3).map((r, idx) => 
+                        `#${idx + 1}. Song: ${r.song} (ID: ${r.id}), Difficulty: ${r.difficulty}`
+                    ).join('\n');
+                    
+                    systemFeedback = `The system found ${searchResults.length} matching levels. Here are the first 3:\n${topResults}\n\nPlease use the buttons below to view the full list.`;
+
+                    // --- CHUẨN BỊ GIAO DIỆN PHÂN TRANG Y HỆT SLASH COMMAND ---
+                    let queryParts = [];
+                    if (searchParams.level_id) queryParts.push(`ID: ${searchParams.level_id}`);
+                    if (searchParams.level_name) queryParts.push(`Name: ${searchParams.level_name}`);
+                    if (searchParams.artist_name) queryParts.push(`Artist: ${searchParams.artist_name}`);
+                    if (searchParams.difficulty) queryParts.push(`Difficulty: ${searchParams.difficulty}`);
+                    displayQuery = queryParts.join(' | ') || "All";
+
+                    const totalPages = Math.ceil(searchResults.length / perPage);
+                    searchEmbeds = [createEmbed(searchResults, displayQuery, 1, totalPages)];
+                    searchComponents = [createButtons(1, totalPages)];
+
+                } else {
+                    systemFeedback = `The system found no matching levels. Please try a different search query.`;
+                }
+
+                history.push({ role: 'assistant', content: replyText });
+                history.push({ role: 'user', content: `(System hint: ${systemFeedback})` });
+
+                await message.channel.sendTyping();
+
+                let finalResponse = await puter.ai.chat(history);
+                if (typeof finalResponse === 'string') replyText = finalResponse;
+                else if (finalResponse?.message) replyText = finalResponse.message.content || finalResponse.message;
+                else if (finalResponse?.text) replyText = finalResponse.text;
+            }
+
+            if (!replyText || replyText.trim() === "") {
+                replyText = "I just don't have a response for that right now. Try asking something else or check your search query.";
+            }
+
+            history.push({ role: 'assistant', content: replyText });
+            if (history.length > 15) history.splice(1, 2);
+
+            // --- GỬI TIN NHẮN KÈM THEO BẢNG DANH SÁCH & NÚT BẤM ---
+            const sentMessage = await message.reply({
+                content: replyText,
+                embeds: searchEmbeds.length > 0 ? searchEmbeds : undefined,
+                components: searchComponents.length > 0 ? searchComponents : undefined
+            });
+
+            // --- KÍCH HOẠT TÍNH NĂNG CHUYỂN TRANG NẾU CÓ DỮ LIỆU ---
+            if (searchResults.length > 0) {
+                let currentPage = 1;
+                const totalPages = Math.ceil(searchResults.length / perPage);
+                const collector = sentMessage.createMessageComponentCollector({ time: 120000 });
+
+                collector.on('collect', async i => {
+                    // Chặn người ngoài bấm nút của người đang chat
+                    if (i.user.id !== message.author.id) {
+                        return i.reply({ content: "Hey! That's not for you.", ephemeral: true });
+                    }
+
+                    if (i.customId === 'prev') currentPage--;
+                    if (i.customId === 'next') currentPage++;
+
+                    await i.update({
+                        embeds: [createEmbed(searchResults, displayQuery, currentPage, totalPages)],
+                        components: [createButtons(currentPage, totalPages)]
+                    });
+                });
+
+                // Tự động xóa nút bấm sau 2 phút để đỡ rác kênh chat
+                collector.on('end', () => {
+                    sentMessage.edit({ components: [] }).catch(() => {});
+                });
+            }
+
+        } catch (error) {
+            console.error("Puter AI error:", error);
+            await message.reply("The Puter AI system is currently overloaded or experiencing an error. Please try again later    😵‍💫");
+        }
+    }
+});
+
+client.login(process.env.DISCORD_TOKEN);
