@@ -93,7 +93,8 @@ client.once(Events.ClientReady, async () => {
         options: [
             { name: 'level_name', type: 3, description: 'Enter the song you want to search for' },
             { name: 'level_id', type: 4, description: 'Or enter the level ID' },
-            { name: 'artist_name', type: 3, description: 'Or enter the artist name' },
+            { name: 'artist', type: 3, description: 'Or enter the artist name' },
+            { name: 'charter', type: 3, description: 'Or enter the charter name' },
             { name: 'difficulty', type: 3, description: 'Level difficulty' }
         ]
     }];
@@ -113,25 +114,27 @@ client.on(Events.InteractionCreate, async interaction => {
     if (interaction.commandName === 'level') {
         const level_name = interaction.options.getString('level_name');
         const level_id = interaction.options.getInteger('level_id');
-        const artist_name = interaction.options.getString('artist_name');
+        const artist = interaction.options.getString('artist');
+        const charter = interaction.options.getString('charter');
         const difficulty = interaction.options.getString('difficulty');
 
-        if (!level_name && !level_id && !artist_name && !difficulty) {
+        if (!level_name && !level_id && !artist && !difficulty && !charter) {
             return interaction.reply({
-                content: "Please provide either a level name, a level ID, an artist name, or a difficulty to search for.",
+                content: "Please provide either a level name, charter, a level ID, an artist name, or a difficulty to search for.",
                 ephemeral: true
             });
         }
 
         await interaction.deferReply();
 
-        const results = await level_search({ level_name, level_id, artist_name, difficulty });
+        const results = await level_search({ level_name, level_id, artist, charter, difficulty });
 
         if (results && results.length > 0) {
             let display_query = "";
             if (level_id) display_query = `ID: ${level_id}`;
-            else if (level_name && artist_name) display_query = `${level_name} (Artist: ${artist_name})`;
-            else if (artist_name) display_query = `Artist: ${artist_name}`;
+            else if (level_name && artist) display_query = `${level_name} (Artist: ${artist})`;
+            else if (artist) display_query = `Artist: ${artist}`;
+            else if (charter) display_query = `Charter: ${charter}`;
             else if (difficulty) display_query = `Difficulty: ${difficulty}`;
             else display_query = level_name;
 
@@ -205,6 +208,7 @@ client.on(Events.MessageCreate, async message => {
             else replyText = JSON.stringify(aiResponse);
 
             const searchMatch = replyText.match(/\[SEARCH:(.*?)\]/);
+            replyText = replyText.replace(/\[SEARCH:(.*?)\]/g, "").trim();
 
             // Values for search parameters
             let searchEmbeds = [];
@@ -213,51 +217,66 @@ client.on(Events.MessageCreate, async message => {
             let displayQuery = "";
 
             if (searchMatch) {
+                console.log("Search command detected with parameters:", searchMatch[0]);
+                // Search parameters 
                 const params = searchMatch[1].split('|').map(s => s.trim());
+
+                const getParam = (val) => (val === "" || val === "ANY" || val === "null") ? null : val;
+                
                 const searchParams = {
-                    level_name: params[0] || null,
-                    level_id: params[1] ? parseInt(params[1], 10) : null,
-                    artist_name: params[2] || null,
-                    difficulty: params[3] || null
+                    level_name: getParam(params[0]) || null,
+                    level_id: getParam(params[1]) ? parseInt(getParam(params[1]), 10) : null,
+                    artist: getParam(params[2]) || null,
+                    charter: getParam(params[3]) || null,
+                    difficulty: getParam(params[4]) || null,
                 };
 
-                // Get ALL result from TUF API based on the search parameters
-                searchResults = await level_search(searchParams);
+                console.log("Parsed search parameters:", searchParams);
 
-                let systemFeedback = "";
-                if (searchResults && searchResults.length > 0) {
-                    // On;ly show the top 3 results in the initial reply, the rest will be in the paginated embed
-                    const topResults = searchResults.slice(0, 3).map((r, idx) => 
-                        `#${idx + 1}. Song: ${r.song} (ID: ${r.id}), Difficulty: ${r.difficulty}`
-                    ).join('\n');
-                    
-                    systemFeedback = `The system found ${searchResults.length} matching levels. Here are the first 3:\n${topResults}\n\nPlease use the buttons below to view the full list.`;
-
-                    // Pgae display query based on the search parameters
-                    let queryParts = [];
-                    if (searchParams.level_id) queryParts.push(`ID: ${searchParams.level_id}`);
-                    if (searchParams.level_name) queryParts.push(`Name: ${searchParams.level_name}`);
-                    if (searchParams.artist_name) queryParts.push(`Artist: ${searchParams.artist_name}`);
-                    if (searchParams.difficulty) queryParts.push(`Difficulty: ${searchParams.difficulty}`);
-                    displayQuery = queryParts.join(' | ') || "All";
-
-                    const totalPages = Math.ceil(searchResults.length / perPage);
-                    searchEmbeds = [createEmbed(searchResults, displayQuery, 1, totalPages)];
-                    searchComponents = [createButtons(1, totalPages)];
-
+                // When empty
+                if (!searchParams.level_name && !searchParams.level_id && !searchParams.artist_name && !searchParams.difficulty && !searchParams.charter) {
+                    console.log("Empty search parameters detected. Asking user for clarification.");
+                    if (replyText === "") replyText = "What exactly are you looking for? Please provide a song name, artist name, or charter to search for.";
                 } else {
-                    systemFeedback = `The system found no matching levels. Please try a different search query.`;
+                    // Get ALL result from TUF API based on the search parameters
+                    searchResults = await level_search(searchParams);
+
+                    let systemFeedback = "";
+                    if (searchResults && searchResults.length > 0) {
+                        // Add charter info
+                        const topResults = searchResults.slice(0, 3).map((r, idx) => 
+                            `#${idx + 1}. Song: ${r.song} by ${r.artist} (Map ID: ${r.id}), Charter: ${r.charter}, Difficulty: ${r.difficulty}, More info: https://tuforums.com/levels/${r.id}`
+                        ).join('\n');
+                        
+                        systemFeedback = `The system found ${searchResults.length} matching levels. Here are the first 3:\n${topResults}`;
+
+                        // Page display query
+                        let queryParts = [];
+                        if (searchParams.level_id) queryParts.push(`Map ID: ${searchParams.level_id}`);
+                        if (searchParams.level_name) queryParts.push(`Name: ${searchParams.level_name}`);
+                        if (searchParams.artist) queryParts.push(`Artist: ${searchParams.artist}`);
+                        if (searchParams.charter) queryParts.push(`Charter: ${searchParams.charter}`);
+                        if (searchParams.difficulty) queryParts.push(`Difficulty: ${searchParams.difficulty}`);
+                        displayQuery = queryParts.join(' | ') || "All";
+
+                        const totalPages = Math.ceil(searchResults.length / perPage);
+                        searchEmbeds = [createEmbed(searchResults, displayQuery, 1, totalPages)];
+                        searchComponents = [createButtons(1, totalPages)];
+
+                    } else {
+                        systemFeedback = `The system found no matching levels. Please tell the user.`;
+                    }
+
+                    history.push({ role: 'assistant', content: replyText });
+                    history.push({ role: 'user', content: `(System hint: ${systemFeedback})` });
+
+                    await message.channel.sendTyping();
+
+                    let finalResponse = await puter.ai.chat(history);
+                    if (typeof finalResponse === 'string') replyText = finalResponse;
+                    else if (finalResponse?.message) replyText = finalResponse.message.content || finalResponse.message;
+                    else if (finalResponse?.text) replyText = finalResponse.text;
                 }
-
-                history.push({ role: 'assistant', content: replyText });
-                history.push({ role: 'user', content: `(System hint: ${systemFeedback})` });
-
-                await message.channel.sendTyping();
-
-                let finalResponse = await puter.ai.chat(history);
-                if (typeof finalResponse === 'string') replyText = finalResponse;
-                else if (finalResponse?.message) replyText = finalResponse.message.content || finalResponse.message;
-                else if (finalResponse?.text) replyText = finalResponse.text;
             }
 
             if (!replyText || replyText.trim() === "") {

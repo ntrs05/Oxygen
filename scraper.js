@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-async function level_search({ level_name = null, level_id = null, artist_name = null, charter = null, difficulty = null } = {}) {
+async function level_search({ level_name = null, level_id = null, artist = null, charter = null, difficulty = null } = {}) {
     const headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
     };
@@ -45,9 +45,9 @@ async function level_search({ level_name = null, level_id = null, artist_name = 
         }
     } 
     // 2. Search by Name, Artist, Charter or Difficulty
-    else if (level_name || artist_name || charter || difficulty) {
+    else if (level_name || artist || charter || difficulty) {
         const apiUrl = "https://api.tuforums.com/v2/database/levels/";
-        const searchQuery = level_name || artist_name || charter || difficulty || "";
+        const searchQuery = level_name || artist || charter || difficulty || "";
 
         try {
             const response = await axios.get(apiUrl, {
@@ -68,7 +68,7 @@ async function level_search({ level_name = null, level_id = null, artist_name = 
                     const itemDiff = String(diffObj.name || "Not Ranked");
 
                     // Apply filters
-                    if (artist_name && !itemArtist.toLowerCase().includes(artist_name.toLowerCase())) continue;
+                    if (artist && !itemArtist.toLowerCase().includes(artist.toLowerCase())) continue;
                     if (charter && !itemCharter.toLowerCase().includes(charter.toLowerCase())) continue;
                     if (difficulty && !itemDiff.toLowerCase().includes(String(difficulty).toLowerCase())) continue;
 
