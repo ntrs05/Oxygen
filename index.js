@@ -83,7 +83,7 @@ client.once(Events.ClientReady, async () => {
         }
         console.log("Success!");
     } catch (err) {
-        console.error("Lỗi kết nối Puter:", err);
+        console.error("Error when connecting to Puter:", err);
     }
 
     // Set up slash commands
