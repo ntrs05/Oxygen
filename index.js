@@ -234,7 +234,7 @@ client.on(Events.MessageCreate, async message => {
                 console.log("Parsed search parameters:", searchParams);
 
                 // When empty
-                if (!searchParams.level_name && !searchParams.level_id && !searchParams.artist_name && !searchParams.difficulty && !searchParams.charter) {
+                if (!searchParams.level_name && !searchParams.level_id && !searchParams.artist && !searchParams.difficulty && !searchParams.charter) {
                     console.log("Empty search parameters detected. Asking user for clarification.");
                     if (replyText === "") replyText = "What exactly are you looking for? Please provide a song name, artist name, or charter to search for.";
                 } else {
