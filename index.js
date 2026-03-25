@@ -279,8 +279,16 @@ client.on(Events.MessageCreate, async message => {
                 }
             }
 
-            if (!replyText || replyText.trim() === "") {
-                replyText = "I just don't have a response for that right now. Try asking something else or check your search query.";
+            if (replyText) {
+                replyText = replyText.replace(/\[SEARCH:.*?\]/g, "").trim();
+            }
+
+            if (!replyText || replyText === "") {
+                if (searchEmbeds.length > 0) {
+                    replyText = "Yo, I found some levels matching your query! Check out the embeds below 👇"; 
+                } else {
+                    replyText = "I can't find any levels matching your query. Try being more specific or check your spelling! 😕";
+                }
             }
 
             history.push({ role: 'assistant', content: replyText });
